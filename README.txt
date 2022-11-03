@@ -19,6 +19,9 @@ Step 5: Split Step 4's dataset into training and testing sub-datasets using 80:2
 Step 6: Determine the optimised values for XGBoost hyperparameters using Bayesian optimisation method (via Hyperopt library)
 Step 7: Train and run the XGBoost model
 
+Step 7 can run by anyone with access to er8 project.
+Steps 1-6 may require data from a personal directory. They can still be run sequentially, but the saving directories would need to changed.
+
 2) dtf
 Contains:
     - Appended datasets from Step 4
